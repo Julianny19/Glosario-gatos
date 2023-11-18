@@ -1,0 +1,135 @@
+.col-10{
+    background-color: #eeeef0;
+}
+h1{
+    font-size: 3em;
+    margin: 7% 13% 7% 13%;
+    font-family: 'Allura', cursive;
+    font-weight: bolder;
+    color: #281e5d;
+    text-align: center;
+}
+h3{
+    font-size: 1.2em;
+}
+.col-10>p{
+    font-family: 'Allura', cursive;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin: 1em 0 1em 0.5em;
+    color: #281e5d;
+    border-top: 3px gray solid;
+}
+.btn-primary {
+    background-color: #281e5d;
+    border-color: white;
+}
+.btn-primary:hover{
+    background-color: gray;
+    border-color: #281e5d;
+}
+.btn-primary:active{
+    background-color: gray !important;
+    border-color: #281e5d;
+}
+.nav{
+    width: 100%;
+}
+.card-img-top{
+    height: 150px;
+}
+body{
+    background-image: url(/img/fondo.avif);
+    background-repeat:round;
+}
+.btn-toolbar{
+    justify-content: center;
+}
+.btn-group{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.boton{
+    margin-top: 90vh;
+    background-color: #eeeef0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    position: fixed;
+}
+.boton a{
+    display: flex;
+}
+#gato {
+    width: 400px;
+    height: 200px;
+    background-image:url(/img/pngwing.com.png);
+    margin: 0;
+    animation: gato 4.00s infinite step-end;
+}     
+footer{
+    background-color: #281e5d;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}  
+footer p{
+    color: #eeeef0;
+    font-size: 0.8em;
+
+}
+@media (max-width: 700px){
+    .boton{
+        width: 20px;
+        height: 20px;
+    }
+}
+ @keyframes gato{
+    0%{background-position: 0 0;}
+    2.4%{background-position: 0 -200px;}
+    4.8%{background-position: 0 -400px;}
+    7.2%{background-position: 0 -600px}
+    9.6%{background-position: 0 -800px;}
+    12%{background-position: 0 -1000px;}
+    14.4%{background-position: 0 -1200px;}
+    16.8%{background-position: 0 -1400px;}
+    19.2%{background-position: 0 -1600px;}
+    21.6%{background-position: 0 -1800px;}
+    24%{background-position: 0 -2000px;}
+    26.4%{background-position: 0 -2200px;}
+    28.8%{background-position: -400px 0px;}
+    31.2%{background-position: -400px -200px;}
+    33.6%{background-position: -400px -400px;}
+    36%{background-position: -400px -600px;}
+    38.4%{background-position: -400px -800px;}
+    40.8%{background-position: -400px -1000px;}
+    42.2%{background-position: -400px -1000px;}
+    47.6%{background-position: -800px 0px;}
+    48%{background-position: -800px -200px;}
+    50.4%{background-position: -800px -400px;}
+    52.8%{background-position: -800px -600px;}
+    55.2%{background-position: -800px -800px;}
+    57.6%{background-position: -800px -1000px;}
+    60%{background-position: -800px -1200px;}
+    62.4%{background-position: -800px -1400px;}
+    64.8%{background-position: -800px -1600px;}
+    67.2%{background-position: -800px -1800px;}
+    69.6%{background-position: -800px -2000px;}
+    72%{background-position: -800px -2200px;}
+    74.4%{background-position: -1200px 0px;}
+    76.8%{background-position: -1200px -200px;}
+    79.2%{background-position: -1200px -400px;}
+    81.6%{background-position: -1200px -600px;}
+    84%{background-position: -1200px -800px;}
+    86.4%{background-position: -1200px -1000px;}
+    88.8%{background-position: -1200px -1200px;}
+    91.2%{background-position: -1200px -1400px;}
+    93.6%{background-position: -1200px -1600px;}
+    96%{background-position: -1200px -1800px;}
+    98.4%{background-position: -1200px -2000px;}
+    100%{background-position: -1200px -2200px;}
+    }
+  
